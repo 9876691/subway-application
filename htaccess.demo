@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine  on
+  RewriteRule ^Subway$       sub/app/webroot/     [L]
+  RewriteRule ^Subway/(.*)$ sub/app/webroot/$1  [L]
+</IfModule> 

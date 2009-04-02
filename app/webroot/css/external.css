@@ -1,0 +1,22 @@
+div#yui-main {
+	text-align: center;
+}
+
+div#logon-form {
+	border: 5px solid #ccc;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: left;
+	padding: 10px;
+}
+
+div#logon-form h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div#logon-form label {
+	font-weight: bold;
+}

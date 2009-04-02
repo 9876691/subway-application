@@ -1,0 +1,673 @@
+/* General Stuff
+----------------------------------------------- */
+
+body {
+  background-color: #E5E5E5;
+  padding: 0;
+  margin: 0;
+}
+
+div#doc3 {
+  padding: 0;
+  margin: 0;
+}
+
+div#hd {
+  background-color: #1B5594;
+}
+
+div#bd {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+div#bd ul {
+  margin-right: 0px;
+}
+
+ul.contact-info {
+  margin: 0 20px 10px 0px;
+  padding-right: 10px;
+}
+
+div#bd li {
+  list-style: none;
+}
+
+div.input {
+  clear: both;
+}
+
+a {text-decoration: underline; padding: 1px; }
+a:link { color: #555; }
+a:visited { color: #555; }
+a:hover { color: #555; text-decoration: none; }
+
+/* Forms
+----------------------------------------------- */
+
+form.invite-form {
+  margin-left: 10px;
+}
+
+form.invite-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+form.invite-form .full-input {
+  width: 80%;
+}
+
+form.normal {
+  padding: 10px;
+}
+
+form.extra-contact {
+  margin-left: 10px;
+}
+form.extra-contact label {
+  display: block;
+  margin-top: 10px;
+}
+
+div.hr {
+  border-top: 1px dashed #ccc;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+div#extra_contact, div#extra_contact_link {
+  margin-top: 10px;
+}
+
+fieldset.submit {
+  margin-top: 10px;
+}
+
+div.submit {
+  display: inline;
+}
+
+form div.header {
+  margin-left: -10px;
+}
+
+/* Tags
+----------------------------------------------- */
+
+ul.tag-list {
+  margin: 2px 0 0 0;
+  padding: 0 0 0 10px;
+  background: #EDF3FE url(../img/tag-icons/tag.gif) no-repeat top left;
+
+}
+
+ul.tag-list-sidebar {
+  margin: 2px 0 10px 0;
+  padding: 0 0 0 10px;
+  background: #e5e5e5 url(../img/tag-icons/tag.gif) no-repeat top left;
+}
+
+ul.tag-list li, ul.tag-list-sidebar li {
+  float: left;
+  padding-right: 5px;
+}
+
+/* Pagination
+----------------------------------------------- */
+
+div.pagination div {
+  display: inline;
+}
+
+div.pagination {
+  padding: 10px;
+}
+
+/* Task Form
+----------------------------------------------- */
+
+form#task-form {
+  background-color: #EFEFEF;
+  border: 1px solid #CCCCCC;
+}
+
+form#task-form label, form#task-form-embedded label {
+  font-weight: bold;
+}
+
+form#task-form input, form#task-form-embedded input {
+  margin-bottom: 5px;
+}
+
+form#task-form input.submit, form#task-form-embedded input.submit {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+form#task-form legend, form#task-form-embedded legend {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+/* Tasks
+----------------------------------------------- */
+
+li.busy, li.complete {
+  background: url(../img/spinner.gif) top right no-repeat;
+}
+
+li.complete {
+  text-decoration: line-through;
+}
+
+div#tasks li {
+  margin-left: -53px;
+  clear: both;
+}
+
+div#tasks {
+  margin-bottom: 20px;
+}
+
+div#tasks li.task-edit {
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+div#tasks li.task-edit span.nubbin {
+  width: 0px;
+}
+
+h3.overdue {
+  color: red;
+}
+
+div.sidebar div.today , div.sidebar div#tasks h3.today {
+  background-color: #FFFFCC;
+  padding-bottom: 10px;
+}
+
+div#tasks h3 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+div#tasks strong {
+  font-weight: bold;
+}
+
+div#tasks span.nubbin {
+  visibility: hidden;
+  display: block;
+  width: 40px;
+  float: left;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+div#tasks li.hover span.nubbin {
+  visibility: visible;
+}
+
+p#add-task-button {
+  position:absolute;
+}
+
+div.sidebar .association {
+  display: none;
+}
+
+form#task-form, form#task-form-embedded, form#task-edit-form {
+  border: 1px solid #7F9DB9;
+  background-color: #F2F5FB;
+  padding: 5px;
+}
+
+div.main-tasks {
+  margin-left: 10px;
+}
+
+/* Results
+----------------------------------------------- */
+
+div#history table td, div#results table td {
+  border: none;
+}
+
+div#history table tr, div#results table tr {
+  border-bottom: 1px dashed #ccc;
+}
+
+div#results table {
+  width: 100%;
+}
+
+div#delete {
+  padding: 10px;
+}
+
+.picture img {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #7F817F;
+}
+
+div#results, div#history {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div#results td, div#history td {
+  vertical-align: top;
+}
+
+div#results a.image {
+  padding: 0;
+}
+
+td.picture {
+  width: 35px;
+}
+
+td.last {
+  text-align: right;
+}
+
+td.last ul {
+  margin-top: 0;
+}
+
+/* Side bar
+----------------------------------------------- */
+
+div.sidebar p.kase-pic {
+  float: left;
+  margin-right: 5px;
+}
+
+div.sidebar p.name {
+  float: left;
+}
+
+div.sidebar h2 {
+  background-color: #EDF3FE;
+  font-weight: bold;
+  color: #333;
+  font-size: 1.1em;
+  margin: 0px 10px 10px 0;
+  position: relative;
+}
+
+div.sidebar h2 a {
+  color: red;
+}
+
+div.sidebar h3 {
+  margin: 30px 0 0 0;
+  background-color: #EDF3FE;
+  padding: 5px;
+}
+
+div.sidebar h2 span {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+}
+
+ul.sidebar-list {
+  margin-left: 0;
+}
+
+div#people-search {
+  background-color: #EFEFEF;
+  border: 1px solid #CCCCCC;
+  margin: 0 0 20px 0;
+  padding: 5px;
+}
+
+div#people-search h2 {
+  background-color: #EFEFEF;
+}
+
+div#people-search div#results {
+  padding: 5px;
+}
+
+div#people-search div#results ul {
+  padding: 0;
+  margin: 0;
+}
+
+div#people-search div#results li {
+  padding: 0 0 5px 0;
+  margin: 0;
+}
+
+ul.people-sidebar {
+  margin-left: 0;
+}
+
+table.people-sidebar td {
+  border: none;
+  padding: 0 5px 0 0;
+}
+
+/* Groups
+----------------------------------------------- */
+div#groups ul li ul li{
+  margin-left: 40px;
+  list-style-type: square;
+}
+
+/* Calendar
+----------------------------------------------- */
+
+table.calendar {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+div.cal-header {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+table.calendar td, table.calendar th {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 0;
+}
+
+table.calendar td.this-month {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+table.calendar td.today {
+  background-color: #f99;
+}
+
+/* Drop Shadow
+----------------------------------------------- */
+
+div.header {
+  background-color: #EDF3FE;
+  padding: 10px;
+}
+
+div.shadow {
+  padding-right: 15px;
+  padding-bottom: 15px;
+  background: #fff url(../img/shadow.gif) no-repeat bottom right;
+}
+
+div.yui-ge {
+  margin-left: 20px;
+}
+
+div.header div.action {
+  float: right;
+}
+
+div.header div.action a {
+  color: red;
+}
+
+div.header div {
+  float: left;
+}
+
+/* Main Navigation
+----------------------------------------------- */
+
+#nav {
+  clear: both;
+  padding: 0;
+  height: 25px;
+  background-color: #1B5594;
+  padding-left: 20px !important;
+  padding-left: 25px;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style: none;
+  border: none;
+}
+
+#nav a:link,
+#nav a:visited {
+  text-decoration: none;
+  border: 1px solid #1B5594;
+  color: #fff;
+  background-color: #5D89C0;
+  border-bottom: 1px solid #666;
+  float: left;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 3px 8px 5px 8px;
+  margin: 0;
+}
+
+#nav a:hover {
+  background-color: #000;
+  border-bottom: 1px solid #000;
+}
+
+#nav li.selected a:link,
+#nav li.selected a:visited {
+  color: #000;
+  font-weight: bold;
+  background-color: #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+#nav li.lru a {
+  background-color: #888;
+}
+
+div.person { margin-left: 10px;}
+
+/* Header
+----------------------------------------------- */
+
+#branding {
+  float: left;
+  height: 4em;
+  margin-left: 25px !important;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+#branding a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+#user-menu a, #user-menu a:active, #user-menu a:link,
+#user-menu a:visited, #user-menu a:hover {
+  color: white;
+}
+
+#user-menu ul {
+  color: white;
+  font-size: 0.8em;
+  float: right;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+#user-menu ul li {
+  float: left;
+  list-style-type: none;
+}
+
+/* Notes (notes tab in particular)
+----------------------------------------------- */
+form.edit-note {
+  padding: 10px;
+}
+
+form.edit-note textarea {
+  width: 100%;
+  height: 200px;
+}
+
+div.note-view p {
+  padding: 10px;
+}
+
+/* Notes (on people/company/kases)
+----------------------------------------------- */
+
+div#notes fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+div#notes form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form#note-form {
+  background-color: #eee;
+  padding: 5px;
+  padding-right: 10px;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+}
+
+div#notes legend {
+  font-weight: bold;
+}
+
+div#notes fieldset {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+div#notes textarea {
+  width: 100%;
+  font-weight: normal;
+}
+
+div#notes p {
+  padding: 0;
+  padding-top: 10px;
+}
+
+div#notes li p {
+  margin: 10px 0;
+  padding: 0;
+}
+
+ul#notes-list li {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+}
+
+ul#notes-list {
+  padding: 0 10px;
+  margin-left: 5px;
+}
+
+/* Auto completion
+----------------------------------------------- */
+
+div#company-search-result ul {
+  position:absolute;
+  width:250px;
+  background-color:white;
+  border:1px solid #888;
+  margin:0 0 20px 0;
+  padding:0px;
+}
+div#company-search-result ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+div#company-search-result ul li.selected {
+  background-color: #ffb;
+}
+div#company-search-result ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+  cursor:pointer;
+}
+
+/* Buttons
+----------------------------------------------- */
+
+p.button img {
+  position: absolute;
+  margin: 4px 0 0 5px;
+}
+
+p.button {
+  display: block;
+  margin-bottom: 10px;
+}
+p.button a {
+  padding: 0px;
+  background: transparent url('../img/buttons/bg_button_a.gif') no-repeat scroll top right;
+  color: #444;
+  display: block;
+  font: bold 12px arial, sans-serif;
+  height: 24px;
+  padding-right: 18px; /* sliding doors padding */
+  text-decoration: none;
+  margin: 0px 6px 00px 0px;
+}
+
+p.button span {
+  margin: 0px;
+  background: transparent url('../img/buttons/bg_button_span.gif') no-repeat;
+  display: block;
+  line-height: 14px;
+  padding: 5px 0 5px 25px;
+}
+
+p.button a:active {
+  background-position: bottom right;
+  color: #000;
+  outline: none; /* hide dotted outline in Firefox */
+}
+
+p.button a:active span {
+  background-position: bottom left;
+  padding: 6px 0 4px 25px; /* push text down 1px */
+}
+
+/* Clearfix
+----------------------------------------------- */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
